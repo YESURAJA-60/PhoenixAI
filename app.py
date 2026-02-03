@@ -7,7 +7,7 @@ import difflib
 # ===== PHOENIX BRAND =====
 st.set_page_config(page_title="Phoenix AI", page_icon="🔥")
 st.title("🐦‍🔥 PHOENIX AI")
-st.write("Developed by red_phoenix11 • All Subjects • Any Doubt")
+st.write("Developed by R. Yesu Raja • All Subjects • Any Doubt")
 
 # ===== FUNCTIONS =====
 
@@ -88,7 +88,7 @@ if st.button("ASK PHOENIX 🔥"):
 
         # Step 3: Final AI prompt
         final_prompt = f"""
-You are PHOENIX AI developed by red_phoenix11.
+You are PHOENIX AI developed by R. Yesu Raja.
 You are friendly, smart, and can answer any doubt: study, life, tech, coding, or PDF content.
 
 User Question:
@@ -111,7 +111,12 @@ Rules:
         st.subheader("🔥 Phoenix Reply")
         st.write(answer)
 
-# Footer
+# ===== FOOTER =====
 st.markdown("---")
-st.caption("Phoenix AI • All Subject • All Life • Any Doubt Solver")
 
+st.markdown(
+    "<p style='text-align: center; color: gray;'>Developed by <b>R. Yesu Raja – Phoenix AI</b><br>All Subjects • All Life • Any Doubt</p>",
+    unsafe_allow_html=True
+)
+
+st.caption("© 2026 Phoenix AI | Powered by Ollama & Streamlit")
